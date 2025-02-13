@@ -9,13 +9,12 @@ for (var i =0; i < numberofDrumButtons; i ++ ) {
         ButtomAnimation(buttonInnerHTML);
     });
 }
+
 addEventListener('keypress',
     function (even){
         var keypress = even.key;
         makeSound(keypress);
         ButtomAnimation(keypress);
-        this.alert(keypress);
-
     }
 )
 
