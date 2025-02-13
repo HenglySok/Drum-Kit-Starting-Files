@@ -14,8 +14,6 @@ addEventListener('keypress',
         var keypress = even.key;
         makeSound(keypress);
         ButtomAnimation(keypress);
-        this.alert(keypress);
-
     }
 )
 
